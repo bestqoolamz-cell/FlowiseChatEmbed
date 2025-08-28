@@ -2007,6 +2007,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               poweredByTextColor={props.poweredByTextColor}
               botContainer={botContainer}
             /> */}
+            <div class="w-full h-[50px] absolute bottom-0 left-0 z-10"></div>
           </div>
         </div>
       )}
