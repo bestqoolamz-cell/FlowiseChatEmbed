@@ -2001,13 +2001,13 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
                 />
               )}
             </div>
-            {/* <Badge
-              footer={props.footer}
+            <Badge
+              // footer={props.footer}
               badgeBackgroundColor={props.badgeBackgroundColor}
               poweredByTextColor={props.poweredByTextColor}
               botContainer={botContainer}
-            /> */}
-            <div style={{ width: '100%', height: '20px', color: 'transparent' }} />
+            />
+            {/* <div style={{ width: '100%', height: '20px', color: 'transparent' }} /> */}
           </div>
         </div>
       )}
