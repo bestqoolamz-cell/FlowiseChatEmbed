@@ -2007,7 +2007,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               poweredByTextColor={props.poweredByTextColor}
               botContainer={botContainer}
             /> */}
-            <div style={{ width: '100%', height: '20px', color: 'transparent' }}>test</div>
+            <div style={{ width: '100%', height: '20px', color: 'transparent' }}></div>
           </div>
         </div>
       )}
